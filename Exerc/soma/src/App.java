@@ -1,17 +1,14 @@
 import java.util.Scanner;
 
-class App {
+public class App {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
-        try{
-            int num1 = sc.nextInt();
-            int num2 = sc.nextInt();
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
-            int SOMA = num1+num2;
+        int resultado = a + b;
+        System.out.println("X = "+resultado);
 
-            System.out.println("SOMA = "+SOMA);
-        }finally{
-            sc.close();
-        }
+        sc.close();
     }
 }
