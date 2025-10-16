@@ -28,8 +28,10 @@ public class TestPolimorfismo {
         Cachorro objConvertido = (Cachorro) meuCachorro; //Casting Object
         objConvertido.fazerSom();
 
+        //outra forma de fazer o Casting Object
         ((Cachorro) meuCachorro).fazerSom();
 
 
     }
+
 }
