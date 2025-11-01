@@ -4,16 +4,13 @@ O objetivo deste exercício é entender como tratar a exceção ArrayIndexOutOfB
 
 ## Intruções
 
-The workspace contains two folders by default, where:
+- 1. Crie uma classe chamada ArrayExercicio.
+- 2. Declare um array de inteiros com alguns elementos.
+- 3. Implemente um método chamado acessarElemento(int[] array, int indice) que recebe o array e um índice como parâmetros.
+- 4. No método acessarElemento, tente acessar o elemento do array no índice fornecido.
+- 5. Se o índice estiver dentro dos limites do array, retorne o valor do elemento.
+- 6. Caso contrário, capture a exceção ArrayIndexOutOfBoundsException e imprima uma mensagem de erro.
+- 7. Crie um método main para testar seu código.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
 
