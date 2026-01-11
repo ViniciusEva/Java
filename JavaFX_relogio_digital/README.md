@@ -27,4 +27,6 @@ Como este projeto utiliza **JavaFX**, você precisa apontar para o diretório do
 javac --module-path "C:\Java\javafx-sdk-22.0.1\lib" --add-modules javafx.controls ProjetoRelogioDigital.java
 ```
 ### Execução
+```bash
 java --module-path "C:\Java\javafx-sdk-22.0.1\lib" --add-modules javafx.controls ProjetoRelogioDigital
+```
