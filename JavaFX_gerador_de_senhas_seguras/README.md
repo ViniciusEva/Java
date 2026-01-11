@@ -27,10 +27,12 @@ javac ProjetoGeradorDeSenhas.java
 ```
 
 ### Execução
-
-**1** - javac --module-path "C:\Java\javafx-sdk-22.0.1\lib" --add-modules javafx.controls ProjetoGeradorDeSenhas.java
-**2** - java --module-path "C:\Java\javafx-sdk-22.0.1\lib" --add-modules javafx.controls ProjetoGeradorDeSenhas
+```bash
+javac --module-path "C:\Java\javafx-sdk-22.0.1\lib" --add-modules javafx.controls ProjetoGeradorDeSenhas.java
+java --module-path "C:\Java\javafx-sdk-22.0.1\lib" --add-modules javafx.controls ProjetoGeradorDeSenhas
+```
 
 ### 📖 Exemplo de Uso
 Digite o comprimento da senha que deseja: 14
+
 Senha gerada: aB8$kL2!pQ9@mN
