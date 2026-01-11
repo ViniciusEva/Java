@@ -1,18 +1,63 @@
-## Getting Started
+# 🖊️ Meu Primeiro Programa em Java: Classe Caneta
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este repositório marca o início da minha jornada na programação Java! 🚀 
+É um projeto fundamental que explora os pilares da **Orientação a Objetos (OO)**, simulando o comportamento e as características de uma caneta do mundo real.
 
-## Folder Structure
+## 📝 Sobre o Projeto
 
-The workspace contains two folders by default, where:
+O objetivo deste programa foi aprender como traduzir objetos da vida real para o código. Ele utiliza duas classes principais:
+1.  **Caneta:** Define os atributos (o que ela tem) e os métodos (o que ela faz).
+2.  **App:** A classe principal que "instancia" (cria) as canetas e executa as ações.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🏗️ Conceitos Aprendidos
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Durante o desenvolvimento deste primeiro programa, apliquei conceitos essenciais:
 
-## Dependency Management
+* **Atributos:** Características do objeto, como `cor`, `modelo`, `ponta`, `carga` e o estado `tampada`.
+* **Métodos:** Ações que o objeto pode realizar, como `rabiscar()`, `tampar()` e `destampar()`.
+* **Estado (Status):** Um método para exibir o estado atual de cada atributo da caneta.
+* **Instanciação:** A criação de diferentes objetos (`c1` e `c2`) a partir da mesma "planta" (classe).
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 🛠️ Como o Código Funciona
+
+O programa simula a lógica de uso de uma caneta: você não pode rabiscar se ela estiver tampada!
+
+### Estrutura de Classes
+
+[Image of a UML Class Diagram for Caneta showing attributes like cor, modelo, ponta, and methods like rabiscar, tampar, destampar]
+
+1.  **O Atributo `tampada`:** É um valor booleano (verdadeiro/falso) que controla o comportamento do método `rabiscar()`.
+2.  **A Verificação:** Se tentarmos rabiscar com a caneta tampada, o sistema gera uma mensagem de erro.
+3.  **Independência de Objetos:** No código, a caneta `c1` pode estar azul e tampada, enquanto a `c2` pode ser preta e destampada. Cada uma mantém seu próprio estado.
+
+---
+
+## 📋 Como Executar
+
+1.  Certifique-se de ter o JDK instalado.
+2.  Crie os arquivos `Caneta.java` e `App.java`.
+3.  Compile e execute:
+
+```bash
+javac *.java
+java App
+```
+### 📖 Exemplo de Saída no Terminal
+
+ERRO! Não posso rabiscar
+Uma caneta: Azul
+está tampada? true
+Ponta: 0.5
+...
+
+Estou Rabiscando
+Uma caneta: Preta
+está tampada? false
+Modelo: Hostnet
+...
+
+***Este foi o meu primeiro contato prático com Java. Ele serviu de base para entender como a linguagem organiza os dados e as funções, preparando o caminho para projetos mais complexos, como interfaces gráficas e algoritmos de segurança.***
