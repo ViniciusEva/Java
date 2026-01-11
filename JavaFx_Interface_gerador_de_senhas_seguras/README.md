@@ -2,6 +2,26 @@
 
 Esta é a camada visual (Frontend) do projeto **Gerador de Senhas Seguras**. Desenvolvida em JavaFX, esta interface permite que o usuário gere senhas de forma intuitiva, sem a necessidade de interagir diretamente com o terminal.
 
+## 📐 Esboço da Interface (Wireframe)
+
+```text
++---------------------------------------+
+|          Gerador de Senhas            |
++---------------------------------------+
+|                                       |
+|   Tamanho da Senha                    |
+|   _________________________           |
+|                                       |
+|                                       |
+|   [ Gerar Senha ]                     |
+|                                       |
+|                                       |
+|   Senha Gerada                        |
+|   _________________________           |
+|                                       |
++---------------------------------------+
+```
+
 ## 🔗 Integração de Classes
 
 O projeto agora está dividido em uma arquitetura de duas camadas:
@@ -36,4 +56,5 @@ java --module-path "C:\Java\javafx-sdk-22.0.1\lib" --add-modules javafx.controls
 ### O que mudou aqui?
 1. **Conexão:** a GUI agora "chama" a lógica que fez antes.
 2. **Estilização:** visual (Ciano/Preto) implementado.
+
 3. **Organização:** `VBox` e `Insets` ajudam no design.
