@@ -60,4 +60,7 @@ está tampada? false
 Modelo: Hostnet
 ...
 
+================================================================================================================================================================================================================================================
+
 ***Este foi o meu primeiro contato prático com Java. Ele serviu de base para entender como a linguagem organiza os dados e as funções, preparando o caminho para projetos mais complexos, como interfaces gráficas e algoritmos de segurança.***
+
