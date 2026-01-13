@@ -3,6 +3,20 @@
 Este projeto consiste no desenvolvimento de um navegador web minimalista utilizando a linguagem **Java** e a biblioteca gráfica **JavaFX**. [cite_start]O objetivo é demonstrar a integração de componentes web dentro de uma aplicação desktop.
 
 ---
+## 🎨Wireframe Mini Navegador Web Java (Esboço):
+
+O design da interface segue a estrutura básica apresentada abaixo:
+
+```text
++----------------------------------+
+|        Meu Browser Java          |
++----------------------------------+
++----------------------------------+
+|                                  |
+|                                  |
+|                                  |
++----------------------------------+
+```
 
 ## 🚀 Descrição do Projeto
 O sistema é um navegador simplificado que permite ao usuário inserir uma URL e carregar o conteúdo visual de páginas da internet.A interface é composta por uma barra de endereços e uma área de exibição de conteúdo.
@@ -54,3 +68,4 @@ Alguns sites podem apresentar falhas de carregamento ou funções indisponíveis
 * **Udemy**: Plataforma de cursos (pode haver problemas com players de vídeo).
 
 * **Edabit**: Atualmente incompatível com este motor de renderização.
+
