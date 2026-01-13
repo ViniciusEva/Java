@@ -36,7 +36,7 @@ A interface foi construída utilizando os seguintes elementos principais:
 
 ---
 
-#### 🚀 Como Compilar e Executar
+## 🚀 Como Compilar e Executar
 
 ### Compilação:
 ```bash
@@ -46,4 +46,5 @@ javac --module-path "C:\Java\javafx-sdk-22.0.1\lib" --add-modules javafx.control
 ### Execução:
 ```bash
 java --module-path "C:\Java\javafx-sdk-22.0.1\lib" --add-modules javafx.controls ProjetoEditorDeTextoBasico
+
 ```
